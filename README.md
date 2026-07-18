@@ -1,5 +1,9 @@
-<p align="center">
+<div align="center">
 
-<img src="./hello.svg" width="700"/>
+<img src="./hero.svg" width="900"/>
 
-</p>
+<br><br>
+
+<!-- <img src="./projects.svg" width="900"/> -->
+
+</div>
