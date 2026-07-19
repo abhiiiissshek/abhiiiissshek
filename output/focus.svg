@@ -1,15 +1,80 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<svg baseProfile="full" height="285" version="1.1" viewBox="0 0 980 285" width="980" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Current focus terminal</title><desc>Generated profile component: Current focus terminal</desc><defs><style type="text/css"><![CDATA[
-          .fade { animation: fade .7s ease-out both; }
-          .float { animation: float 3.8s ease-in-out infinite; }
-          .blink { animation: blink 1.1s step-end infinite; }
-          .pulse { animation: pulse 2.8s ease-in-out infinite; }
-          .reveal { animation: reveal .8s ease-out both; }
-          .typing { animation: typing 1.15s steps(8, end) both; }
-          @keyframes fade { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
-          @keyframes float { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-3px); } }
-          @keyframes blink { 50% { opacity:0; } }
-          @keyframes pulse { 50% { opacity:.45; } }
-          @keyframes reveal { from { opacity:0; transform:scale(.985); } to { opacity:1; transform:scale(1); } }
-          @keyframes typing { from { opacity:0; letter-spacing:7px; } to { opacity:1; letter-spacing:0; } }
-        ]]></style></defs><rect fill="#0d1117" height="285" rx="18" width="980" x="0" y="0" /><rect fill="#0d1117" height="283" rx="18" stroke="#30363d" stroke-width="1" width="978" x="1" y="1" /><circle cx="29" cy="28" fill="#ff5f57" r="6" /><circle cx="52" cy="28" fill="#febc2e" r="6" /><circle cx="75" cy="28" fill="#28c840" r="6" /><text fill="#8b949e" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="middle" x="490" y="33">now.md</text><line opacity="1" stroke="#30363d" stroke-width="1" x1="1" x2="979" y1="54" y2="54" /><text fill="#3fb950" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="600" text-anchor="start" x="31" y="91">$ cat current-focus.yml</text><text fill="#58a6ff" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" text-anchor="start" x="50" y="126">Currently learning:</text><text fill="#c9d1d9" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start" x="245" y="126">System design and scalable backend patterns</text><text fill="#58a6ff" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" text-anchor="start" x="50" y="155">Currently building:</text><text fill="#c9d1d9" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start" x="245" y="155">Accessible, full-stack web products</text><text fill="#58a6ff" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" text-anchor="start" x="50" y="184">Reading:</text><text fill="#c9d1d9" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start" x="245" y="184">Designing Data-Intensive Applications</text><text fill="#58a6ff" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" text-anchor="start" x="50" y="213">Open source:</text><text fill="#c9d1d9" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start" x="245" y="213">Looking for useful first contributions</text><text fill="#58a6ff" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="600" text-anchor="start" x="50" y="242">Looking for:</text><text fill="#c9d1d9" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" text-anchor="start" x="245" y="242">Collaborators who care about craft</text><text fill="#3fb950" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="600" text-anchor="start" x="31" y="260">$</text><rect class="blink" fill="#58a6ff" height="16" width="9" x="48" y="247" /></svg>
+<svg baseProfile="full" height="530" version="1.1" viewBox="0 0 980 530" width="980" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Current focus terminal</title><desc>Animated GitHub profile component: Current focus terminal</desc><defs><style type="text/css"><![CDATA[
+          .fade-up { animation: fade-up .8s cubic-bezier(.16,1,.3,1) both; }
+          .fade-late { animation: fade-up .9s .18s cubic-bezier(.16,1,.3,1) both; }
+          .quote-in { animation: quote-in 1.15s ease-out both; }
+          .sweep { opacity: 0.12; animation: glass-sweep 4s ease-in-out infinite; }
+          .cursor { animation: cursor-fade 1.55s ease-in-out infinite; }
+          .traffic-red { animation: traffic 3.4s ease-in-out infinite; }
+          .traffic-yellow { animation: traffic 3.4s .22s ease-in-out infinite; }
+          .traffic-green { animation: traffic 3.4s .44s ease-in-out infinite; }
+          .float-a { animation: float-a 4s ease-in-out infinite; }
+          .float-b { animation: float-b 4.7s .35s ease-in-out infinite; }
+          .float-c { animation: float-c 5.3s .7s ease-in-out infinite; }
+          .breathe { animation: breathe 3.8s ease-in-out infinite; }
+          .breathe-two { animation: breathe 4.5s .5s ease-in-out infinite; }
+          .cmd-1 { animation: command-1 2.1s linear both; }
+          .cmd-2 { animation: command-2 2.1s linear both; }
+          .cmd-3 { animation: command-3 2.1s linear both; }
+          .cmd-4 { animation: command-4 2.1s linear both; }
+          .cmd-5 { animation: command-5 2.1s linear both; }
+          .cmd-6 { animation: command-6 2.1s linear both; }
+          .border-runner {
+    fill: none;
+    stroke: #58a6ff;
+    stroke-width: 2;
+    stroke-linecap: round;
+    animation: border-run 5s linear infinite;
+}
+
+@keyframes border-run {
+    from {
+        stroke-dashoffset: var(--perimeter);
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+          @keyframes fade-up { from { opacity:0; transform:translateY(9px); } to { opacity:1; transform:translateY(0); } }
+          @keyframes quote-in { from { opacity:0; transform:translateY(7px); } 70% { opacity:1; } to { opacity:1; transform:translateY(0); } }
+          @keyframes glass-sweep {
+    from {
+        transform: translateX(-320px);
+    }
+
+    to {
+        transform: translateX(1180px);
+    }
+}
+          @keyframes cursor-fade { 0%,100% { opacity:.18; } 48% { opacity:1; } }
+          @keyframes traffic { 0%,100% { opacity:.78; } 50% { opacity:1; } }
+          @keyframes float-a { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-5px); } }
+          @keyframes float-b { 0%,100% { transform:translateY(-2px); } 50% { transform:translateY(4px); } }
+          @keyframes float-c { 0%,100% { transform:translateY(2px); } 50% { transform:translateY(-4px); } }
+          @keyframes breathe { 0%,100% { opacity:.7; } 50% { opacity:1; } }
+          @keyframes command-1 { 0%,14% { opacity:1; } 15%,100% { opacity:0; } }
+          @keyframes command-2 { 0%,14% { opacity:0; } 15%,29% { opacity:1; } 30%,100% { opacity:0; } }
+          @keyframes command-3 { 0%,29% { opacity:0; } 30%,44% { opacity:1; } 45%,100% { opacity:0; } }
+          @keyframes command-4 { 0%,44% { opacity:0; } 45%,59% { opacity:1; } 60%,100% { opacity:0; } }
+          @keyframes command-5 { 0%,59% { opacity:0; } 60%,74% { opacity:1; } 75%,100% { opacity:0; } }
+          @keyframes command-6 { 0%,74% { opacity:0; } 75%,100% { opacity:1; } }
+          .border-runner {
+    fill: none;
+    stroke: #58a6ff;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-dasharray: 70 2790;
+    animation: border-run 5s linear infinite;
+}
+
+@keyframes border-run {
+    from {
+        stroke-dashoffset: 2860;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+        ]]></style></defs><rect fill="#0d1117" height="530" rx="20" width="980" x="0" y="0" /><rect class="hero-border" fill="#0d1117" height="528" opacity="1" rx="20" stroke="#58a6ff" stroke-width="1" width="978" x="1" y="1" /><rect class="border-runner" fill="none" height="528" rx="20" stroke="#58a6ff" stroke-dasharray="80 3012" stroke-dashoffset="3012" stroke-width="2" style="&#10;                stroke-dasharray:80 3012;&#10;                stroke-dashoffset:3012;&#10;                animation:border-run 5s linear infinite;&#10;                " width="978" x="1" y="1" /><circle class="traffic-red" cx="30" cy="28" fill="#ff5f57" r="6" stroke="none" /><circle class="traffic-yellow" cx="52" cy="28" fill="#febc2e" r="6" stroke="none" /><circle class="traffic-green" cx="74" cy="28" fill="#28c840" r="6" stroke="none" /><text fill="#8b949e" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="middle" x="490.0" y="33">current-focus.yml</text><line opacity="1" stroke="#21262d" stroke-width="1" x1="1" x2="979" y1="54" y2="54" /><text fill="#3fb950" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" text-anchor="start" x="32" y="90">$ cat current-focus.yml</text><text fill="#58a6ff" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" text-anchor="start" x="52" y="130">environment:</text><text fill="#e6edf3" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start" x="72" y="160">editor: VS Code</text><text fill="#e6edf3" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start" x="72" y="185">terminal: zsh</text><text fill="#58a6ff" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" text-anchor="start" x="52" y="225">runtime:</text><text fill="#e6edf3" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start" x="72" y="255">coffee: required</text><text fill="#e6edf3" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start" x="72" y="280">music: lofi</text><text fill="#e6edf3" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start" x="72" y="305">bugs: inevitable</text><text fill="#58a6ff" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" text-anchor="start" x="52" y="345">learning:</text><text fill="#e6edf3" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start" x="72" y="375">- System Design</text><text fill="#e6edf3" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start" x="72" y="400">- Cloud</text><text fill="#e6edf3" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start" x="72" y="425">- Docker</text><text fill="#58a6ff" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="700" text-anchor="start" x="52" y="465">goal:</text><text fill="#e6edf3" font-family="SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" text-anchor="start" x="72" y="495">- Build software that makes an impact</text></svg>
