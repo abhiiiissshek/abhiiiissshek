@@ -1,8 +1,3 @@
-<div align="center">
-
-![](https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=58a6ff)
-
-</div>
 <h1 align="center">
 Hi, I'm Abhishek Sharma 👋
 </h1>
@@ -13,14 +8,14 @@ Full-Stack Developer • MERN • Flask • C++
 
 <br>
 <div align="center">
+  <img src="./output/hero.svg" width="100%" alt="Terminal introduction for Abhishek Sharma" />
+</div>
+<div align="center">
   <img src="./output/quote.svg" width="100%" alt="Daily programming quote" />
 </div>
 
 <br />
 
-<div align="center">
-  <img src="./output/hero.svg" width="100%" alt="Terminal introduction for Abhishek Sharma" />
-</div>
 
 <br />
 
