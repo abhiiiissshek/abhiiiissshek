@@ -1,20 +1,12 @@
-<h1 align="center">
-Hi, I'm Abhishek Sharma 👋
-</h1>
-
-<p align="center">
-Full-Stack Developer • MERN • Flask • C++
-</p>
-
-<br>
-<div align="center">
-  <img src="./output/hero.svg" width="100%" alt="Terminal introduction for Abhishek Sharma" />
-</div>
 <div align="center">
   <img src="./output/quote.svg" width="100%" alt="Daily programming quote" />
 </div>
 
 <br />
+
+<div align="center">
+  <img src="./output/hero.svg" width="100%" alt="Terminal introduction for Abhishek Sharma" />
+</div>
 
 
 <br />
